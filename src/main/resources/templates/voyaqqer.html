@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Welcome to Voyaqqer</title>
+</head>
+<body>
+	<h1>Welcome to Voyaqqer！</h1>
+	<form method="post" action="/nyuryoku">
+		入力：<input type="text" name="nyuryokuchi"/>
+		<input type="submit" value="クリック"/>
+
+	</form>
+	<br/>
+	<form method="post" action="/voyaqqer/db">
+		ボヤッカラーID：<input type="text" name="voyaqqererId" th:value="${voyaqqererId_value}" />
+		<input type="submit" value="クリック" />
+	</form>
+</body>
+</html>

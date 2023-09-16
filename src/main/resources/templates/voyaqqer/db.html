@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>ボヤッカラーリスト</title>
+</head>
+<body>
+	<h1>ボヤッカラーリスト</h1>
+	<table>
+	<tr>
+		<td>ボヤッカーID:</td>
+		<td th:text="${voyaqqerer.voyaqqererId}"></td>
+	</tr>
+	<tr>
+		<td>ボヤッカーNAME:</td>
+		<td th:text="${voyaqqerer.voyaqqererName}"></td>
+	</tr>
+	<tr>
+		<td>ボヤッカーPROFILE:</td>
+		<td th:text="${voyaqqerer.voyaqqererProfile}"></td>
+	</tr>
+	<tr>
+		<td>年齢:</td>
+		<td th:text="${voyaqqerer.voyaqqererAge}"></td>
+	</tr>
+	<tr>
+		<td>画像を表示したい:</td>
+		<td th:text="${voyaqqerer.voyaqqererProfileImageFileName}"></td>
+	</tr>
+	</table>
+	<a href="/voyaqqer">戻る</a>
+</body>
+</html>
