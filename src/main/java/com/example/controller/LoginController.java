@@ -8,7 +8,7 @@ public class LoginController {
 
 	
 	//ログイン画面を表示
-	@GetMapping("/loginn")
+	@GetMapping("/login")
 	public String getLogin() {
 		return "login/login";
 		//return "login/yahoo";
