@@ -83,6 +83,12 @@
 		</dependency>
 		<!-- 2023/09/17 funcys end-->
 		
+		<!-- validator -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
