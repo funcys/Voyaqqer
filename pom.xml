@@ -100,7 +100,12 @@
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>2.1.4</version>
 		</dependency>
-		
+		<!--ModelMapper-->
+		<dependency>
+			<groupId>org.modelmapper.extensions</groupId>
+			<artifactId>modelmapper-spring</artifactId>
+			<version>2.3.9</version>
+		</dependency>
 	</dependencies>
 
 	<build>
