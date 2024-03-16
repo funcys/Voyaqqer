@@ -1,5 +1,7 @@
 package com.example.domain.user.model;
 
+import java.util.Date;
+
 import lombok.Data;
 
 @Data
@@ -7,11 +9,11 @@ public class MUser {
 	private String userId;
 	private String password;
 	private String userName;
-	private String birthday;
+	private Date birthday;
 	private String profile;
-	private String age;
-	private String gender;
-	private String regionId;
+	private Integer age;
+	private Integer gender;
+	private Integer regionId;
 	private String profileImageFileName;
 	private String role;
 }

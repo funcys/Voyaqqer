@@ -19,15 +19,15 @@
 			profile_image_file_name,
 			role
 	 	) values(
-			#{user_id},
+			#{userId},
 			#{password},
-			#{user_name},
+			#{userName},
 			#{birthday},
 			#{profile},
 			#{age},
 			#{gender},
-			#{region_id},
-			#{profile_image_file_name},
+			#{regionId},
+			#{profileImageFileName},
 			#{role}
 	 	)
 	 </insert>
