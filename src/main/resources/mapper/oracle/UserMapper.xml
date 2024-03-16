@@ -7,17 +7,17 @@
  
  	<!-- ユーザー1件登録 -->
  	<insert id="insertOne">
-	 	insert into m_user(
-			user_id,
-			password,
-			user_name,
-			birthday,
-			profile,
-			age,
-			gender,
-			region_id,
-			profile_image_file_name,
-			role
+	 	insert into SYSTEM."m_user"(
+		    "user_id"
+		    , "password"
+		    , "user_name"
+		    , "birthday"
+		    , "profile"
+		    , "age"
+		    , "gender"
+		    , "region_id"
+		    , "profile_image_file_name"
+		    , "role"
 	 	) values(
 			#{userId},
 			#{password},

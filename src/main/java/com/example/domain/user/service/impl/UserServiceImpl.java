@@ -17,6 +17,7 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public void signup(MUser user) {
 		user.setRegionId(1);	//リージョン
+		user.setProfileImageFileName("test.jpg");	//リージョン
 		user.setRole("ROLE_GENERAL");	//ロール
 		mapper.insertOne(user);	
 	}
