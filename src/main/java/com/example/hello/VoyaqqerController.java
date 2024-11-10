@@ -18,6 +18,12 @@ public class VoyaqqerController {
 		//voyaqqer.htmlに画面遷移
 		return "voyaqqer";
 	}
+	
+	@GetMapping("/namako")
+	public String getNamako() {
+		//voyaqqer.htmlに画面遷移
+		return "namako";
+	}
 
 	@PostMapping("/nyuryoku")
 	public String PostRequest(@RequestParam("nyuryokuchi") String strNyuryokuchi, Model model) {
